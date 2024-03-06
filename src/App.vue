@@ -1,13 +1,12 @@
 <template>
-  <header>
-    <h1 className="text-3xl font-bold underline">
-      Welcome to Endavu!
-    </h1>
-  </header>
+  <Toaster />
+  <RouterView />
   <RefreshServiceWorker />
 
 </template>
 
 <script setup lang="ts">
-  import RefreshServiceWorker from '@/components/RefreshServiceWorker.vue'
+import {RouterView} from 'vue-router'
+import Toaster from '@ui/toast/Toaster.vue'
+import RefreshServiceWorker from '@/components/RefreshServiceWorker.vue'
 </script>
