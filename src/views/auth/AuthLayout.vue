@@ -3,9 +3,11 @@
     <img class="mr-2 size-6 rounded absolute left-5 top-5 lg:hidden" src="/apple-touch-icon.png" alt="logo"/>
     <Button
       variant="ghost"
-      class="absolute right-4 top-4 md:right-8 md:top-8"
+      @click="() => router.push('/stocks')"
+      class="absolute right-4 top-4 gap-1.5 md:right-8 md:top-8"
     >
-      Login
+      <BadgeEuro class="size-5" />
+      Stocks list
     </Button>
     <div class="relative hidden h-full flex-col bg-muted p-10 text-white dark:border-r lg:flex">
       <div class="absolute inset-0 bg-foreground" />
@@ -47,4 +49,8 @@
 
 <script setup lang="ts">
 import {Button} from "@ui/button"
+import {useRouter} from 'vue-router'
+import { BadgeEuro } from "lucide-vue-next"
+
+const router = useRouter()
 </script>

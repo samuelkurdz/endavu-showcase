@@ -21,9 +21,10 @@ const router = createRouter({
         }
       ]
     },
-    // {
-    //   path: '/app',
-    // },
+    {
+      path: '/stocks',
+      component: () => import('@views/StocksList.vue')
+    },
   ]
 })
 
