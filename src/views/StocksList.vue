@@ -5,17 +5,17 @@
     </h1>
 
     <div class="w-full flex gap-4 flex-col md:flex-row">
-<!--      <Card class="w-full">-->
-<!--        <CardHeader>-->
-<!--          <CardTitle>Team</CardTitle>-->
-<!--          <CardDescription>-->
-<!--            Meet our team members-->
-<!--          </CardDescription>-->
-<!--        </CardHeader>-->
-<!--        <CardContent>-->
-<!--          <TeamList />-->
-<!--        </CardContent>-->
-<!--      </Card>-->
+      <Card class="w-full">
+        <CardHeader>
+          <CardTitle>Team</CardTitle>
+          <CardDescription>
+            Meet our team members
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <TeamList />
+        </CardContent>
+      </Card>
       <Card class="w-full">
         <CardHeader>
           <CardTitle>Recent stocks</CardTitle>
